@@ -32,7 +32,7 @@ import tarfile
 
 GIT_PATH = shutil.which('git')
 CFSSL_REPO = 'https://github.com/cloudflare/cfssl.git'
-CFSSL_VERSION = 'master'
+CFSSL_VERSION = '3d15118774e5c893ded05ce1b7193215116dba48'
 CFSSL_BUILD_SCRIPT = 'script/build-docker'
 ROOT_PATH = os.path.dirname(os.path.abspath(__file__))
 DIST_PATH = os.path.join(ROOT_PATH, 'dist')
